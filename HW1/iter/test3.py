@@ -6,4 +6,5 @@ for i in sieve.prime_tester():
     count += 1
     
     if count >= 20:
+        assert i == 73
         break
